@@ -1,6 +1,6 @@
 <html lang="es">
 
-<title>V &amp; V CONSTRUCTORA</title>
+<title>V &amp; V Constructora</title>
 
 
 ** ELIMINAR **
@@ -17,10 +17,14 @@
 				
 				
 				
+				
+				
+				
+				
                 <div class="contact-info pull-left visible-lg visible-md visible-sm">
 					<ul>
 						<!--<li><a href="dir:#"><i class="fa fa-map-marker"></i>Dirección</a></li>-->
-						<li><a href="mailto:mail"><i class="fa fa-envelope"></i>@vyvconstructora.cl</a></li>
+						<li><a href="mailto:mail"><i class="fa fa-envelope"></i>contacto@vyvconstructora.cl</a></li>
 						<li><a href="#"><i class="fa fa-phone"></i>Jacob Villalobos : +56962238536</a></li>
                         <li><a href="#"><i class="fa fa-phone"></i>Rom&aacute;n Veloso:    +56962238382</a></li>
                         <li><a href="#"><i class="fa fa-phone"></i>Bernardita Veloso: +56962164274</a></li>
@@ -29,7 +33,7 @@
                 <div class="contact-info pull-left visible-xs">
 					<ul>
 						<!--<li><a href="dir:#"><i class="fa fa-map-marker"></i>Dirección</a></li>-->
-						<li><a href="mailto:mail"><i class="fa fa-envelope"></i>@vyvconstructora.cl</a></li>
+						<li><a href="mailto:mail"><i class="fa fa-envelope"></i>contacto@vyvconstructora.cl</a></li>
                         <br>
 						<li><a href="tel:+56962238536"><i class="fa fa-phone"></i>Jacob Villalobos : +56962238536</a></li>
                         <br>
@@ -147,13 +151,19 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<h2>Constructora V &amp; V</h2>
+					<h2>V &amp; V Constructora</h2>
 					<p>Si tienes algun proyecto de construcci&oacute;n o renovaci&oacute;n en mente, escrivenos o llamanos</p>
-					<p class="has-btn"><b>+56 9 12345678</b> o <a href="contact.html" class="hvr-bounce-to-right">Contactenos</a></p>
+					<p class="has-btn"><b>+56 9 62164274</b> <span class="visible-xs"><a href="tel:+56962164274" class="hvr-bounce-to-right">Contactenos</a></span></p>
 				</div>
 			</div>
 		</div>
 	</section>
+
+
+
+
+
+
 
 
 
@@ -169,42 +179,43 @@
 					<img class="positioned wow slideInUp " src="img/resources/footer-crane.png" alt="">
 				</div> <!-- /.widget -->
 				<!-- .widget -->
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 widget">
+				<div class="col-lg-5 col-md-5 col-sm-6 col-xs-6 widget">
 					<h3>Sobre Nosotros</h3>
-					<p>Lorem ipsum dolor sit amet, consect- <br>etur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali qua. Ut enim ad minim veniam, quis no strud exercitation ullamco. Ut enim ad minim.</p>
-					<a href="#" class="read-more">M&aacute;s <i class="fa fa-angle-double-right"></i></a>
-					<ul class="social">
-						<li><a href="#" class="hvr-radial-out"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" class="hvr-radial-out"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" class="hvr-radial-out"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="#" class="hvr-radial-out"><i class="fa fa-linkedin"></i></a></li>
-					</ul>
+					<p>V & V constructora LTDA, es una empresa con más de 2 años de experiencia en el campo de la construcción, nos situamos como una de las mejores empresas en el rubro de construcciones menores de casas ( Interior y exterior) , galpones y bodegas. Somos una empresa familiar, comprometida con prestar un excelente servicio, desde el levantamiento del presupuesto hasta la entrega de la obra.</p>
 				</div> <!-- /.widget -->
 				<!-- .widget -->
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 widget clearboth-tab clearboth-480">
-					<h3>Trabajos Recientes</h3>
-					<ul class="our-services">
-						<li><a href="#">Xxxxxxxx1</a></li>
-						<li><a href="#">HXxxxxx2</a></li>
-						<li><a href="#">Xxxxxxxx3</a></li>
-						<li><a href="#">Xxxxxxxx4</a></li>
-						<li><a href="#">Xxxxxxxx5</a></li>
-					</ul>
-				</div> <!-- /.widget -->
 				<!-- .widget -->
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 widget">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 widget">
 					<h3>Datos</h3>
 					<ul class="contact-info">
-						<li><i class="fa fa-map-marker"></i> <span class="text">Dir</span></li>
-						<li><i class="fa fa-phone"></i> <span class="text">0 1 2 345678</span></li>
-						<li><i class="fa fa-envelope-o"></i> <span class="text">mail@mail.com</span></li>
-						<li><i class="fa fa-globe"></i> <span class="text">http://sitio.com</span></li>
-					</ul>
+						<!--<li><i class="fa fa-map-marker"></i> <span class="text">Dir</span></li>-->
+						<li>
+						<i class="fa fa-phone"></i> <span class="text">Jacob Villalobos : +56962238536</span>
+						<i class="fa fa-envelope"></i> <span class="text">@vyvconstructora.cl</span>
+						</li>
+						
+                        <li>
+						<i class="fa fa-phone"></i> <span class="text">Rom&aacute;n Veloso : +56962238382</span>
+						<i class="fa fa-envelope"></i> <span class="text">@vyvconstructora.cl</span>
+						</li>
+						
+                        <li>
+						<i class="fa fa-phone"></i> <span class="text">Bernardita Veloso : +56962164274</span>
+						<i class="fa fa-envelope"></i> <span class="text">@vyvconstructora.cl</span>
+						</li>
+<!--						<li><i class="fa fa-envelope-o"></i> <span class="text">mail@mail.com</span></li>
+						<li><i class="fa fa-globe"></i> <span class="text">http://sitio.cl</span></li>
+-->					</ul>
 				</div> <!-- /.widget -->
 				
 			</div>
 		</div>
 	</footer> <!-- /footer -->
+
+
+
+
+
 
 
 
