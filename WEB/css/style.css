@@ -5519,8 +5519,8 @@ header.construct .cart-box {
     background-size: cover;
     overflow: hidden;
 }
-#welcome-to-construct .col-lg-7 {
-    padding: 60px 50px;
+#welcome-to-construct .col-lg-7, #welcome-to-construct .col-lg-5 {
+    padding: 40px 50px 5px;
 }
 #welcome-to-construct .col-lg-5 h2 {
     font-size: 24px;
@@ -7149,7 +7149,7 @@ header.construct.header-curvy.header-fixed .mainmenu-container > ul > li.dropdow
 }
 .testimonials_v1 #testimonials.testimonials_v1_content .single-testimoinal-wrap .single-testimonial .content {
     width: auto;
-    padding: 0 25px;
+    padding: 0 45px;
     border: 0;
 }
 .testimonials_v1 #testimonials.testimonials_v1_content .single-testimoinal-wrap .single-testimonial .content h2 {

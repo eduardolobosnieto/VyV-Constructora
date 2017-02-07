@@ -160,27 +160,39 @@
 				</div> <!-- /.widget -->
 				<!-- .widget -->
 				<div class="col-lg-5 col-md-5 col-sm-6 col-xs-6 widget">
-					<h3>Sobre Nosotros</h3>
-					<p>V & V constructora LTDA, es una empresa con más de 2 años de experiencia en el campo de la construcción, nos situamos como una de las mejores empresas en el rubro de construcciones menores de casas ( Interior y exterior) , galpones y bodegas. Somos una empresa familiar, comprometida con prestar un excelente servicio, desde el levantamiento del presupuesto hasta la entrega de la obra.</p>
+					<h3>Telefonos</h3>
+                    <ul class="contact-info">
+                    
+                    <li>
+                    <p><i class="fa fa-phone"></i> <span class="text">Jacob Villalobos : +56962238536</span></p>
+                    </li>
+                    
+                    <li>
+                    <i class="fa fa-phone"></i> <span class="text">Rom&aacute;n Veloso : +56962238382</span>
+                    </li>
+                    
+                    <li>
+                    <i class="fa fa-phone"></i> <span class="text">Bernardita Veloso : +56962164274</span>
+                    </li>
+                    
+                    
+                    </ul>
 				</div> <!-- /.widget -->
 				<!-- .widget -->
 				<!-- .widget -->
 				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 widget">
-					<h3>Datos</h3>
+					<h3>Correos</h3>
 					<ul class="contact-info">
 						<!--<li><i class="fa fa-map-marker"></i> <span class="text">Dir</span></li>-->
 						<li>
-						<i class="fa fa-phone"></i> <span class="text">Jacob Villalobos : +56962238536</span>
 						<i class="fa fa-envelope"></i> <span class="text">jacob.villalobos@vyvconstructora.cl</span>
 						</li>
 						
                         <li>
-						<i class="fa fa-phone"></i> <span class="text">Rom&aacute;n Veloso : +56962238382</span>
 						<i class="fa fa-envelope"></i> <span class="text">roman.veloso@vyvconstructora.cl</span>
 						</li>
 						
                         <li>
-						<i class="fa fa-phone"></i> <span class="text">Bernardita Veloso : +56962164274</span>
 						<i class="fa fa-envelope"></i> <span class="text">bernardita.veloso@vyvconstructora.cl</span>
 						</li>
 					</ul>
