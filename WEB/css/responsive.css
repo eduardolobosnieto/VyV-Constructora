@@ -89,19 +89,6 @@
 	.testimonials_v1 #testimonials.testimonials_v1_content .single-testimoinal-wrap .single-testimonial .content {
 	  width: 75%;
 	}
-	.testimonials_v2 .testimonials_v2_content .single_client .single_client_right::before {
-
-	  left: 3px;
-	  width: 100%;
-	}
-	.testimonials_v2 #testimonials.testimonials_v2_content .single-testimoinal-wrap .single-testimonial .profile-info {
-	  padding: 15px;
-	  width: auto;
-	}
-	.testimonials_v2 #testimonials.testimonials_v2_content .single-testimoinal-wrap .single-testimonial .content {
-	  margin-bottom: 0;
-	  width: 66%;
-	}
 
 	#project-version-two.home-v2 .gallery-filter li span {
 		margin: 10px 0;
@@ -223,12 +210,6 @@
 	#project-version-one.construct.home .gallery-filter li span {
 	  margin-bottom: 20px;
 	}
-	#video-section-construction .video-text p {
-	  margin: 0 0 20px;
-	}
-	#video-section-construction .video-text h2 {
-	  margin: 0 0 10px;
-	}
 	.service-tab-content p {
 	  margin-bottom: 20px;
 	}
@@ -240,13 +221,6 @@
 	}
 	#welcome-to-construct .col-lg-7 {
 	  padding: 35px 50px;
-	}
-	#testimonials-construct-home .single-testimonial-construct .col-lg-8 {
-	  padding: 0px 20px 0 30px;
-	}
-	#testimonials-construct-home .single-testimonial-construct h3 {
-	  margin: 15px 0 13px;
-	  right: 42px;
 	}
 	#blog-construct .single-blog-post .img-holder img {
 	  width: 100%;
@@ -381,14 +355,6 @@
 	  width: 100%;
 	}
 	.testimonials_v1 #testimonials.testimonials_v1_content .single-testimoinal-wrap .single-testimonial .content {
-		width: 100%;
-	}
-	.testimonials_v2 .testimonials_v2_content .single_client .single_client_right::before {
-
-	  left: 3px;
-	  width: 100%;
-	}
-	.testimonials_v2 #testimonials.testimonials_v2_content .single-testimoinal-wrap .single-testimonial .content {
 		width: 100%;
 	}
 	.parallax {
@@ -584,20 +550,8 @@
 	#project-version-one.construct.home .gallery-filter li span {
 	  margin-bottom: 20px;
 	}
-	#video-section-construction .video-preview {
-		margin-bottom: 30px;
-	}
 	#welcome-to-construct .col-lg-5 .img-holder img {
 	  width: 100%;
-	}
-	#testimonials-construct-home .single-testimonial-construct  {
-	  text-align: center;
-	}
-	#testimonials-construct-home .single-testimonial-construct h3 {
-	  position: static;
-	}
-	#testimonials-construct-home .single-testimonial-construct .col-lg-8 {
-	  padding: 30px 25px;
 	}
 	#our-team-construct {
 		margin-bottom: -30px;
@@ -743,7 +697,6 @@
 	header.construct.header-curvy .mainmenu-container ul > li:hover > ul {display: none;opacity: 1;visibility: visible;}
 	header.construct.header-curvy .mainmenu-container ul {transition: none !important;}
 	.service-tab-title ul li {width: 50%;}
-	#video-section-construction .video-preview, #video-section-construction .video-text {display: block;width: 100%;padding: 0;}
 
 	#topbar.construct .pull-left,
 	#topbar.construct .pull-right {float: none !important;text-align: center; }
@@ -1128,9 +1081,6 @@
 	.testimonials_v1 #testimonials.testimonials_v1_content .single-testimoinal-wrap .single-testimonial .content {
 		width: 100%;
 	}
-	.testimonials_v2 #testimonials.testimonials_v2_content .single-testimoinal-wrap .single-testimonial .content {
-		width: 100%;
-	}
 	#page-title .title h1 {
 	  padding: 0 28px;
 	}
@@ -1416,10 +1366,6 @@
 	#blog-post.testimonials_v1 .col-lg-4 {
 	  padding: 0;
 	}
-	.testimonials_v2 #testimonials.testimonials_v2_content {
-	  margin: 0;
-	  padding: 0 15px;
-	}
 	.single-construction-welcome .img-holder img {
 	  width: 100%;
 	}
@@ -1435,9 +1381,6 @@
 	#project-version-one.construct.home .gallery-filter li span {
 	  margin-bottom: 20px;
 	}
-	#video-section-construction .video-text h2 {
-	  margin: 20px 0 22px;
-	}
 	#welcome-to-construct .col-lg-5 .img-holder {
 	  float: none !important;
 	}
@@ -1451,22 +1394,7 @@
 	  float: none;
 	  width: 100%;
 	}
-	#testimonials-construct-home .single-testimonial-construct {
-	  text-align: center;
-	}
-	#testimonials-construct-home .single-testimonial-construct h3 {
-	  position: static;
-	}
-	#testimonials-construct-home {
-		margin-bottom: -30px;
-	}
 
-	#testimonials-construct-home .single-testimonial-construct {
-		margin-bottom: 30px;
-	}
-	#testimonials-construct-home .single-testimonial-construct .col-lg-8 {
-	  padding: 15px 15px;
-	}
 	#our-team-construct {
 		margin-bottom: -30px;
 	}
@@ -1544,29 +1472,10 @@
 		opacity: 1;
 		visibility: visible;
 	}
-	#video-section-construction .video-preview {
-		width: 100%;
-		display: block;
-	}
-	#video-section-construction .video-preview img {
-		width: 100%;
-	}
-	#video-section-construction .video-text {
-		padding-left: 0;
-	}
 	#welcome-to-construct .col-lg-7 ul {
 		display: block;
 		padding-right: 0px;
 		vertical-align: middle;
-	}
-	#testimonials-construct-home .single-testimonial-construct .img-holder {
-			display: inline-block;
-	}
-	#testimonials-construct-home .single-testimonial-construct .content {
-		display: table-cell;
-		padding-left: 0;
-		padding-right: 0;
-		padding: 0 15px 20px;
 	}
 	#project-version-one .gallery-v4 .single-project-item {
 	    width: 100%;
@@ -1700,9 +1609,6 @@
 	.testimonials_v1 #testimonials.testimonials_v1_content .single-testimoinal-wrap .single-testimonial .content {
 	  width: 69%;
 	}
-	.testimonials_v2 #testimonials.testimonials_v2_content .single-testimoinal-wrap .single-testimonial .content {
-	  width: 69%;
-	}
 	#blog-post .no-search-content .suggesion-input input[type="text"] {
   		width: 70%;
 	}
@@ -1743,15 +1649,6 @@
 	}
 	#blog-construct .single-blog-post,
 	#our-team-construct .single-construct-member,
-	#testimonials-construct-home .single-testimonial-construct {	
-	  width: 85%;
-	  float: none;
-	  margin-left: auto;
-	  margin-right: auto;
-	}
-	#testimonials-construct-home .single-testimonial-construct {
-		display: block;
-	}
 	#service-we-provide.construct .service-tab-content .col-lg-4 {
 	  bottom: -80px;
 	}
@@ -1768,9 +1665,6 @@
 	  top: 0px;
 	}
 	.testimonials_v1 #testimonials.testimonials_v1_content .single-testimoinal-wrap .single-testimonial .content {
-	  width: 77%;
-	}
-	.testimonials_v2 #testimonials.testimonials_v2_content .single-testimoinal-wrap .single-testimonial .content {
 	  width: 77%;
 	}
 }

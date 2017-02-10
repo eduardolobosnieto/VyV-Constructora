@@ -4565,30 +4565,6 @@ button.mainmenu-toggler:hover {
 * Testimonials Version 2 Styles.
 **/
 
-.testimonials_v2 .testimonials_v2_content {
-    background-color: #fff;
-    margin-left: -15px;
-    margin-right: 15px;
-    padding: 0 25px;
-}
-.testimonials_v2 .section-title h1 {
-    margin-bottom: 60px;
-}
-.testimonials_v2 #testimonials.testimonials_v2_content {
-    padding: 0;
-    background: #fff;
-    margin-bottom: -60px;
-}
-.testimonials_v2 #testimonials.testimonials_v2_content .single-testimoinal-wrap {
-    margin-bottom: 60px;
-}
-.testimonials_v2 #testimonials.testimonials_v2_content .single-testimoinal-wrap .single-testimonial .content {
-    width: 76.24%;
-    margin-bottom: 19px;
-}
-.testimonials_v2 #testimonials.testimonials_v2_content .single-testimoinal-wrap .single-testimonial {
-    background: #F7F7F7;
-}
 /**
 * Quick Link Side bar Style
 **/
@@ -6969,79 +6945,6 @@ header.construct .cart-box {
     background: #DA9700;
 }
 
-/** ====== Video section construction styles ====== **/
-
-#video-section-construction {
-    padding: 80px 0;
-    background: url(../img/video-construction/bg.jpg) center center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-
-}
-#video-section-construction .video-preview,
-#video-section-construction .video-text {
-    display: table-cell;
-    vertical-align: middle;
-}
-#video-section-construction .video-preview {
-    width: 421px;
-}
-#video-section-construction .video-text {
-    padding-left: 50px;
-}
-#video-section-construction .video-preview a {
-    display: inline-block;
-    background: #000;
-    position: relative;
-}
-#video-section-construction .video-preview a:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url(../img/video-construction/video-play-icon.png) center center no-repeat;
-    z-index: 99;
-}
-#video-section-construction .video-preview img {
-    opacity: .5;
-    transition: all .3s ease;
-}
-#video-section-construction .video-preview a:hover img {
-    opacity: .85;
-}
-#video-section-construction .video-text h2 {
-    font-size: 28px;
-    color: #102132;
-    font-weight: 500;
-    letter-spacing: .03em;
-    margin: 0;
-    margin-bottom: 22px;
-}
-#video-section-construction .video-text p {
-    font-size: 14px;
-    color: #777777;
-    font-weight: 500;
-    letter-spacing: .03em;
-    margin: 0;
-    margin-bottom: 50px;
-}
-#video-section-construction .video-text a {
-    font-size: 14px;
-    color: #3B3B3B;
-    font-weight: 700;
-    line-height: 30px;
-    border: 1px solid #3B3B3B;
-    letter-spacing: .03em;
-    margin: 0;
-    text-transform: uppercase;
-    padding: 0 22px;
-    display: inline-block;
-}
-#video-section-construction .video-text a:before {
-    background: #DA9700;
-}
 
 
 /** ====== Welcome to construct styles ====== **/
@@ -7120,95 +7023,6 @@ header.construct .cart-box {
 
 
 /** ====== testimonials construct home styles ====== **/
-
-#testimonials-construct-home {
-    position: relative;
-    background: url(../img/testimonials-construct/bg.jpg) center center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-    padding: 80px 0;
-}
-#testimonials-construct-home .section-title h1 {
-    border-color: #BCBFC1;
-}
-#testimonials-construct-home .single-testimonial-construct {
-    background: #fff;
-}
-#testimonials-construct-home .single-testimonial-construct h3 {
-    font-size: 14px;
-    line-height: 37px;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    background: #EFA600;
-    display: inline-block;
-    padding: 0 49px;
-    margin: 0;
-    margin-bottom: 23px;
-    position: relative;
-    right: 50px;
-    margin-top: 15px;
-}
-#testimonials-construct-home .single-testimonial-construct p {
-    font-size: 14px;
-    color: #484848;
-    margin: 0;
-    font-weight: 500;
-}
-#testimonials-construct-home .single-testimonial-construct .content {
-    padding-left: 30px;
-    padding-right: 10px;
-    display: table-cell;
-}
-#testimonials-construct-home .single-testimonial-construct .img-holder {
-    display: table-cell;
-}
-#testimonials-construct-home .single-testimonial-construct .img-holder:before {
-    background: #EDB005;
-}
-#testimonials-construct-home .single-testimonial-construct .img-holder img {
-    max-width: none;
-    width: 170px;
-    transition: all .3s ease;
-}
-#testimonials-construct-home .single-testimonial-construct:hover .img-holder img {
-    opacity: .45;
-}
-#testimonials-construct-home .single-testimonial-construct:hover .img-holder:before, 
-#testimonials-construct-home .single-testimonial-construct:active .img-holder:before, 
-#testimonials-construct-home .single-testimonial-construct:focus .img-holder:before {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-}
-
-#testimonials-construct-home .owl-theme {
-    position: relative;    
-}
-#testimonials-construct-home .owl-theme .owl-controls {
-    position: absolute;
-    right: 0;
-    top: -90px;
-}
-#testimonials-construct-home .owl-theme .owl-nav {
-    margin: 0;    
-}
-#testimonials-construct-home .owl-theme .owl-nav [class*=owl-] {
-    width: 30px;
-    height: 30px;
-    background: #fff;
-    font-size: 18px;
-    line-height: 30px;
-    color: #767676;
-    padding: 0;    
-    margin: 0;
-    border-radius: 0;
-    margin-left: 10px;
-    transition: all .3s ease;
-}
-#testimonials-construct-home .owl-theme .owl-nav [class*=owl-]:hover {
-    background: #36ABFC;
-    color: #fff;
-}
 
 
 /** ====== our construct team styles ====== **/

@@ -32,37 +32,7 @@ function clientCarosule () {
 	}
 }
 // add your custom functions 
-function testimonailCarosule () {
-	if ($('#testimonials-construct-home .owl-carousel').length) {
-		$('#testimonials-construct-home .owl-carousel').owlCarousel({
-		    loop: true,
-		    margin: 30,
-		    nav: true,
-		    dots: false,
-            navText: [
-                '<i class="fa fa-angle-left"></i>',
-                '<i class="fa fa-angle-right"></i>'
-            ],
-		    autoplay: true,
-		    autoplayTimeout: 3000,
-		    autoplayHoverPause: true,
-		    responsive: {
-		        0:{
-		            items:1
-		        },
-		        480:{
-		            items:1
-		        },
-		        600:{
-		            items:1
-		        },
-		        1000:{
-		            items:2
-		        }
-		    }
-		});
-	}
-}
+
 // add your custom functions 
 function teamCarosule () {
 	if ($('#our-team-construct .owl-carousel').length) {
