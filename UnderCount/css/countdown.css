@@ -1,0 +1,527 @@
+	 	
+/* CUSTOM STYLES
+----------------------------------------------------------------------------------------------------*/
+
+
+/* BODY
+----------------------------------------------------------------------------------------------------*/
+    body {
+	padding-bottom: 40px;
+	background-repeat: repeat;
+	background-color: #000;
+    }
+	
+/* BODY END
+----------------------------------------------------------------------------------------------------*/	
+	
+
+/* NAVBAR STYLES
+----------------------------------------------------------------------------------------------------*/
+    .navbar-wrapper {
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     z-index: 10;
+     margin-top: 20px;
+     margin-bottom: -90px; 
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+   
+    .navbar .navbar-inner {
+     border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+   
+    .navbar .brand {
+     padding: 14px 20px 16px; 
+     font-size: 16px;
+     font-weight: bold;
+     text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+   
+    .navbar .nav > li > a {
+	padding: 15px 20px;
+	color: #FFF;
+    }
+
+  
+    .navbar .btn-navbar {
+	margin-top: 10px;
+    }
+	
+	.navbar .nav {
+	float: right;
+	font-size: 18px;
+	color: #FFF;
+}
+
+    .nav > li > a {
+	display: block;
+	color: #FFF;
+}
+
+/* NAVBAR STYLES END
+----------------------------------------------------------------------------------------------------*/
+
+
+/* CAROUSEL SLIDER
+----------------------------------------------------------------------------------------------------*/
+    .carousel {
+     /*margin-bottom: 60px;*/
+    }
+
+    .carousel .container {
+     position: relative;
+     z-index: 9;
+    }
+
+    .carousel-control {
+     height: 80px;
+     margin-top: 0;
+     font-size: 120px;
+     text-shadow: 0 1px 1px rgba(0,0,0,.4);
+     background-color: transparent;
+     border: 0;
+    }
+
+    .carousel .item {
+	height: 500px;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+    .carousel-caption {
+	position: static;
+	max-width: 550px;
+	margin-top: 130px;
+	padding-top: 10;
+	padding-right: 20px;
+	padding-bottom: 10;
+	padding-left: 20px;
+	background-color: transparent;
+    }
+    .carousel-caption h1 { /* title in slider */
+	line-height: 1.25;
+	color: #FFF;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+	background-color: #000;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 5;
+	margin-left: 0;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+    }
+	
+	
+    .carousel-caption .lead {
+	line-height: 1.25;
+	color: #FFF;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+	background-color: #000;
+	margin-top: 5px;
+	margin-right: 0;
+	margin-bottom: 5px;
+	margin-left: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+    }
+	
+   .btn-inverse { /* button in slider */
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #000000;
+  *background-color: #222222;
+	background-image: -moz-linear-gradient(top, #000000, #000000);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#000000));
+	background-image: -webkit-linear-gradient(top, #000000, #000000);
+	background-image: -o-linear-gradient(top, #000000, #000000);
+	background-image: linear-gradient(to bottom, #000000, #000000);
+	background-repeat: repeat-x;
+	border-color: #000000 #000000 #000000;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+	
+    .btn-inverse:hover,
+    .btn-inverse:active,
+    .btn-inverse.active,
+    .btn-inverse.disabled,
+    .btn-inverse[disabled] { /* button in slider */
+	color: #ffffff;
+	background-color: #000000;
+  
+}
+	
+    .carousel-caption .btn-large {
+	margin-top: 10px;
+	background-color: #000;
+    }
+	
+/* CAROUSEL SLIDER END
+----------------------------------------------------------------------------------------------------*/
+  
+/* COUNTER-BOX
+----------------------------------------------------------------------------------------------------*/
+	.span12{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -50px;
+	color: #000;
+}
+
+
+    .row-fluid{
+	background-color: transparent;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	position: static;
+	color: #000;
+}
+
+
+   .well {
+   min-height: 20px;
+   padding: 19px;
+   margin-bottom: 20px;
+   background-color: #f5f5f5;
+   border: 1px solid #e3e3e3;
+   -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+          border-radius: 4px;
+   -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.00);
+      -moz-box-shadow: inset 0 0px 1px rgba(0, 0, 0, 0.00);
+           box-shadow: inset 0 0px 1px rgba(0, 0, 0, 0.00);
+ }
+
+
+   .well-large{
+	position: relative;
+	margin-top: -210px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 779px;
+	background-color: transparent;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+}
+
+.well-large h2{
+	color: #FFF;	
+}
+
+.btn.disabled,
+.btn[disabled] {
+	background-color: #FFFFFF;
+	color: #000;
+	opacity: 100;
+	filter: alpha(opacity=100);
+}
+
+/* COUNTER-BOX END
+----------------------------------------------------------------------------------------------------*/
+
+/* COUNTER CLOCK
+----------------------------------------------------------------------------------------------------*/
+#clock .btn-large {
+	
+	color: #000;
+}
+
+#clock .btn-large p {
+	color: #000;
+}
+
+#clock {
+	color: #000;
+	margin-top: 80px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	overflow: hidden;
+	text-align: center;
+	position: static;
+	background-color: transparent;
+}
+
+
+#clock p {
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	float: left;
+	height: 125px;
+	width: 80px;
+	font-size: 17px;
+	color: #000;
+	
+}
+#clock p span {
+	display: block;
+	font-size: 35px;
+	font-weight: bold;
+	padding-top: 35px;
+	padding-right: 0px;
+	/*padding-bottom: 20px;*/
+	padding-left: 0px;
+	color: #000;
+	background-color: #FFF;
+}
+
+/* COUNTER CLOCK END
+----------------------------------------------------------------------------------------------------*/
+   
+	
+/* COPYRIGHT & SOCIAL ICONS
+----------------------------------------------------------------------------------------------------*/
+
+/* COPYRIGHT --------------*/
+
+#copyright {
+	background-color: #000000;
+	padding-top: 20px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+
+#copyright .span7 {
+	color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 30px;
+	text-align: center;
+}
+
+#copyright .row {
+	color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-bottom: 0px;
+}
+/* COPYRIGHT END --------------*/
+
+/* SOCIAL ICONS ---------------*/
+
+#copyright .social-links {
+	list-style: none;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+#copyright .social-links li {
+    display: inline;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+#copyright .social-links li a {
+    color: rgb(200, 200, 200);
+    font-size: 25px;
+}
+#copyright .social-links li a:hover {
+	color: rgb(255,255,255);
+	font-size: 25px;
+	text-decoration: none;
+}
+
+#copyright .social-links li:first-child {
+    padding-right: 15px;
+}
+#copyright .social-links li:last-child {
+    margin-right: 0px;
+    padding-right: 0px;
+    border-right: none;
+}
+
+/* COPYRIGHT & SOCIAL ICONS END
+----------------------------------------------------------------------------------------------------*/
+
+
+/* RESPONSIVE MEDIA SMARTPHONE & TABLETS
+----------------------------------------------------------------------------------------------------*/
+    @media (max-width: 979px) {
+
+    .container.navbar-wrapper {
+       margin-bottom: 0;
+       width: auto;
+      }
+    .navbar-inner {
+       border-radius: 0;
+       margin: -20px 0;
+      }
+
+    .carousel .item {
+       height: 500px;
+      }
+    .carousel img {
+       width: auto;
+       height: 500px;
+      }
+	  
+	.row-fluid {
+	  color: #FFF;
+      }
+	  
+	.row-fluid h2{
+	  color: #FFF;	
+      }
+
+    .row .span12 p{
+	  color: #FFF;
+      }
+
+    .pagination {
+	  font-size: 18px;
+	  color: #000;
+      }
+
+    .pagination ul li a {
+	  font-size: 25px;
+	  color: #000;
+	}
+	
+p {
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+ .well-large{
+	position: relative;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: transparent;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	margin-top: -50px;
+	width: auto;
+}
+
+    }
+
+
+    @media (max-width: 767px) {
+		
+	.visible-phone {
+	 display: inherit !important;
+	 color: #FFF;
+    }
+	
+    .hidden-phone {
+     display: none !important;
+    }
+
+    .navbar-inner {
+      margin: -20px;
+    }
+
+    .carousel {
+      margin-left: -20px;
+      margin-right: -20px;
+     }
+	 
+    .carousel .container {
+      }
+	  
+    .carousel .item {
+       height: 300px;
+     }
+	 
+    .carousel img {
+       height: 300px;
+     }
+	 
+    .carousel-caption {
+       /*width: 65%;
+       padding: 0 70px;*/
+       margin-top: 100px;
+      }
+	  
+    .carousel-caption h1 {
+        font-size: 30px;
+      }
+	  
+    .carousel-caption .lead,
+    .carousel-caption .btn {
+	   font-size: 18px;
+      }
+	  
+	.row-fluid {
+	 color: #FFF;
+     }
+
+    .row-fluid h2 {
+	  color: #FFF;	
+     }
+
+    .row .span12 p{
+	  color: #FFF;
+     }
+
+    .pagination {
+	  font-size: 18px;
+	  color: #000;
+     }
+
+    .pagination ul li a {
+	  font-size: 25px;
+	  color: #000;
+     }
+
+p {
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+}
+
+ .well-large{
+	position: relative;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: transparent;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	margin-top: -50px;
+	width: auto;
+}
+    }
+	
+/* RESPONSIVE MEDIA SMARTPHONE & TABLETS END
+----------------------------------------------------------------------------------------------------*/
