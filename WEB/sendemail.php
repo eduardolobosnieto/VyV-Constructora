@@ -3,7 +3,7 @@ require("PHPMailer-master/PHPMailerAutoload.php");
 
 $mail = new PHPMailer;
 
-$to = "eduardolobosnieto@gmail.com";
+$to = "contacto@vyvconstructora.cl";
 
 $nombre = $_POST['name'];
 $email = $_POST['email'];
@@ -15,7 +15,7 @@ if ($nombre == "" || $email == "" || $subject == "" || $message == "") :
 else:
 	$mail->From = $email;
 	$mail->addAddress($to);
-	$mail->Subject = "Correo Enviado por el Sitio WEB";
+	$mail->Subject = "Correo Enviado desde el Sitio WEB";
 	$mail->isHtml(true);
 	$mail->Body = '<strong>Nombre : </strong> '.$nombre.'<br>
 				   <strong>E-Mail : </strong> '.$email.'<br>
